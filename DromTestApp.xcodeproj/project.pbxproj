@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1CF5DE2645119B003441FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5DD2645119B003441FC /* AppDelegate.swift */; };
+		FA1CF5E02645119B003441FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5DF2645119B003441FC /* SceneDelegate.swift */; };
+		FA1CF5E22645119B003441FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5E12645119B003441FC /* ViewController.swift */; };
+		FA1CF5E52645119B003441FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF5E32645119B003441FC /* Main.storyboard */; };
+		FA1CF5E82645119B003441FC /* DromTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5E62645119B003441FC /* DromTestApp.xcdatamodeld */; };
+		FA1CF5EA264511AE003441FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF5E9264511AE003441FC /* Assets.xcassets */; };
+		FA1CF5ED264511AE003441FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF5EB264511AE003441FC /* LaunchScreen.storyboard */; };
+		FA1CF5F8264511AE003441FC /* DromTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5F7264511AE003441FC /* DromTestAppTests.swift */; };
+		FA1CF603264511AE003441FC /* DromTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF602264511AE003441FC /* DromTestAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1CF5F4264511AE003441FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1CF5D22645119B003441FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1CF5D92645119B003441FC;
+			remoteInfo = DromTestApp;
+		};
+		FA1CF5FF264511AE003441FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1CF5D22645119B003441FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1CF5D92645119B003441FC;
+			remoteInfo = DromTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1CF5DA2645119B003441FC /* DromTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DromTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1CF5DD2645119B003441FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1CF5DF2645119B003441FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA1CF5E12645119B003441FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1CF5E42645119B003441FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1CF5E72645119B003441FC /* DromTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DromTestApp.xcdatamodel; sourceTree = "<group>"; };
+		FA1CF5E9264511AE003441FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA1CF5EC264511AE003441FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA1CF5EE264511AE003441FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1CF5F3264511AE003441FC /* DromTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DromTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1CF5F7264511AE003441FC /* DromTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DromTestAppTests.swift; sourceTree = "<group>"; };
+		FA1CF5F9264511AE003441FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1CF5FE264511AE003441FC /* DromTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DromTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1CF602264511AE003441FC /* DromTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DromTestAppUITests.swift; sourceTree = "<group>"; };
+		FA1CF604264511AE003441FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1CF5D72645119B003441FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CF5F0264511AE003441FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CF5FB264511AE003441FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1CF5D12645119B003441FC = {
+			isa = PBXGroup;
+			children = (
+				FA1CF5DC2645119B003441FC /* DromTestApp */,
+				FA1CF5F6264511AE003441FC /* DromTestAppTests */,
+				FA1CF601264511AE003441FC /* DromTestAppUITests */,
+				FA1CF5DB2645119B003441FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1CF5DB2645119B003441FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF5DA2645119B003441FC /* DromTestApp.app */,
+				FA1CF5F3264511AE003441FC /* DromTestAppTests.xctest */,
+				FA1CF5FE264511AE003441FC /* DromTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1CF5DC2645119B003441FC /* DromTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF5DD2645119B003441FC /* AppDelegate.swift */,
+				FA1CF5DF2645119B003441FC /* SceneDelegate.swift */,
+				FA1CF5E12645119B003441FC /* ViewController.swift */,
+				FA1CF5E32645119B003441FC /* Main.storyboard */,
+				FA1CF5E9264511AE003441FC /* Assets.xcassets */,
+				FA1CF5EB264511AE003441FC /* LaunchScreen.storyboard */,
+				FA1CF5EE264511AE003441FC /* Info.plist */,
+				FA1CF5E62645119B003441FC /* DromTestApp.xcdatamodeld */,
+			);
+			path = DromTestApp;
+			sourceTree = "<group>";
+		};
+		FA1CF5F6264511AE003441FC /* DromTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF5F7264511AE003441FC /* DromTestAppTests.swift */,
+				FA1CF5F9264511AE003441FC /* Info.plist */,
+			);
+			path = DromTestAppTests;
+			sourceTree = "<group>";
+		};
+		FA1CF601264511AE003441FC /* DromTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CF602264511AE003441FC /* DromTestAppUITests.swift */,
+				FA1CF604264511AE003441FC /* Info.plist */,
+			);
+			path = DromTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1CF5D92645119B003441FC /* DromTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1CF607264511AE003441FC /* Build configuration list for PBXNativeTarget "DromTestApp" */;
+			buildPhases = (
+				FA1CF5D62645119B003441FC /* Sources */,
+				FA1CF5D72645119B003441FC /* Frameworks */,
+				FA1CF5D82645119B003441FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DromTestApp;
+			productName = DromTestApp;
+			productReference = FA1CF5DA2645119B003441FC /* DromTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1CF5F2264511AE003441FC /* DromTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1CF60A264511AE003441FC /* Build configuration list for PBXNativeTarget "DromTestAppTests" */;
+			buildPhases = (
+				FA1CF5EF264511AE003441FC /* Sources */,
+				FA1CF5F0264511AE003441FC /* Frameworks */,
+				FA1CF5F1264511AE003441FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1CF5F5264511AE003441FC /* PBXTargetDependency */,
+			);
+			name = DromTestAppTests;
+			productName = DromTestAppTests;
+			productReference = FA1CF5F3264511AE003441FC /* DromTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA1CF5FD264511AE003441FC /* DromTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1CF60D264511AE003441FC /* Build configuration list for PBXNativeTarget "DromTestAppUITests" */;
+			buildPhases = (
+				FA1CF5FA264511AE003441FC /* Sources */,
+				FA1CF5FB264511AE003441FC /* Frameworks */,
+				FA1CF5FC264511AE003441FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1CF600264511AE003441FC /* PBXTargetDependency */,
+			);
+			name = DromTestAppUITests;
+			productName = DromTestAppUITests;
+			productReference = FA1CF5FE264511AE003441FC /* DromTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1CF5D22645119B003441FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA1CF5D92645119B003441FC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA1CF5F2264511AE003441FC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA1CF5D92645119B003441FC;
+					};
+					FA1CF5FD264511AE003441FC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA1CF5D92645119B003441FC;
+					};
+				};
+			};
+			buildConfigurationList = FA1CF5D52645119B003441FC /* Build configuration list for PBXProject "DromTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1CF5D12645119B003441FC;
+			productRefGroup = FA1CF5DB2645119B003441FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1CF5D92645119B003441FC /* DromTestApp */,
+				FA1CF5F2264511AE003441FC /* DromTestAppTests */,
+				FA1CF5FD264511AE003441FC /* DromTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1CF5D82645119B003441FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1CF5ED264511AE003441FC /* LaunchScreen.storyboard in Resources */,
+				FA1CF5EA264511AE003441FC /* Assets.xcassets in Resources */,
+				FA1CF5E52645119B003441FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CF5F1264511AE003441FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CF5FC264511AE003441FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1CF5D62645119B003441FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1CF5E22645119B003441FC /* ViewController.swift in Sources */,
+				FA1CF5DE2645119B003441FC /* AppDelegate.swift in Sources */,
+				FA1CF5E02645119B003441FC /* SceneDelegate.swift in Sources */,
+				FA1CF5E82645119B003441FC /* DromTestApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CF5EF264511AE003441FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1CF5F8264511AE003441FC /* DromTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1CF5FA264511AE003441FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1CF603264511AE003441FC /* DromTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1CF5F5264511AE003441FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1CF5D92645119B003441FC /* DromTestApp */;
+			targetProxy = FA1CF5F4264511AE003441FC /* PBXContainerItemProxy */;
+		};
+		FA1CF600264511AE003441FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1CF5D92645119B003441FC /* DromTestApp */;
+			targetProxy = FA1CF5FF264511AE003441FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1CF5E32645119B003441FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1CF5E42645119B003441FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1CF5EB264511AE003441FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1CF5EC264511AE003441FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1CF605264511AE003441FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA1CF606264511AE003441FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1CF608264511AE003441FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DromTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alex.DromTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1CF609264511AE003441FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DromTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alex.DromTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA1CF60B264511AE003441FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DromTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alex.DromTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DromTestApp.app/DromTestApp";
+			};
+			name = Debug;
+		};
+		FA1CF60C264511AE003441FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DromTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alex.DromTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DromTestApp.app/DromTestApp";
+			};
+			name = Release;
+		};
+		FA1CF60E264511AE003441FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DromTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alex.DromTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DromTestApp;
+			};
+			name = Debug;
+		};
+		FA1CF60F264511AE003441FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DromTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alex.DromTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DromTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1CF5D52645119B003441FC /* Build configuration list for PBXProject "DromTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1CF605264511AE003441FC /* Debug */,
+				FA1CF606264511AE003441FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1CF607264511AE003441FC /* Build configuration list for PBXNativeTarget "DromTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1CF608264511AE003441FC /* Debug */,
+				FA1CF609264511AE003441FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1CF60A264511AE003441FC /* Build configuration list for PBXNativeTarget "DromTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1CF60B264511AE003441FC /* Debug */,
+				FA1CF60C264511AE003441FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1CF60D264511AE003441FC /* Build configuration list for PBXNativeTarget "DromTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1CF60E264511AE003441FC /* Debug */,
+				FA1CF60F264511AE003441FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA1CF5E62645119B003441FC /* DromTestApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA1CF5E72645119B003441FC /* DromTestApp.xcdatamodel */,
+			);
+			currentVersion = FA1CF5E72645119B003441FC /* DromTestApp.xcdatamodel */;
+			path = DromTestApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA1CF5D22645119B003441FC /* Project object */;
+}
