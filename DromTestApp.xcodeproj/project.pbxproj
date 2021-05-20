@@ -25,6 +25,7 @@
 		DB4E5E01D2A64D1967BB50E0 /* ImageViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D43222AD4FFDAA92667C3FC /* ImageViewerInteractor.swift */; };
 		E10F2BD216CC0E480DB415F4 /* ImageViewerModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F56F470C0DE2FFD34D4FF3 /* ImageViewerModuleOutput.swift */; };
 		FA0F1A7B2654C5850016077B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F1A7A2654C5850016077B /* ImageCache.swift */; };
+		FA0F1AD12656D3390016077B /* CustomCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F1AD02656D3390016077B /* CustomCollectionViewFlowLayout.swift */; };
 		FA1CF5DE2645119B003441FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5DD2645119B003441FC /* AppDelegate.swift */; };
 		FA1CF5E52645119B003441FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1CF5E32645119B003441FC /* Main.storyboard */; };
 		FA1CF5E82645119B003441FC /* DromTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF5E62645119B003441FC /* DromTestApp.xcdatamodeld */; };
@@ -35,7 +36,6 @@
 		FA1CF62226451645003441FC /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF62126451645003441FC /* ModuleTransitionable.swift */; };
 		FA1CF63626452474003441FC /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF63526452474003441FC /* ImageCollectionViewCell.swift */; };
 		FA1CF63B2645306B003441FC /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF63A2645306B003441FC /* UIImage+.swift */; };
-		FA1CF64026454DFC003441FC /* CustomCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CF63F26454DFC003441FC /* CustomCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +74,7 @@
 		D9C0E300628E27DEB0045C0D /* ImageViewerViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageViewerViewInput.swift; sourceTree = "<group>"; };
 		F9867C6916D34AE70925BEBC /* ImageViewerInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageViewerInteractorOutput.swift; sourceTree = "<group>"; };
 		FA0F1A7A2654C5850016077B /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		FA0F1AD02656D3390016077B /* CustomCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		FA1CF5DA2645119B003441FC /* DromTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DromTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1CF5DD2645119B003441FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA1CF5E42645119B003441FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +91,6 @@
 		FA1CF62126451645003441FC /* ModuleTransitionable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
 		FA1CF63526452474003441FC /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA1CF63A2645306B003441FC /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
-		FA1CF63F26454DFC003441FC /* CustomCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCollectionViewFlowLayout.swift; path = ../../../../../../../Yandex.Disk.localized/CustomCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,7 +239,6 @@
 				D9C0E300628E27DEB0045C0D /* ImageViewerViewInput.swift */,
 				B1D8A6C0E01038DFCC35D3AA /* ImageViewerViewOutput.swift */,
 				3BFADEAEBA9CD9B3A292125C /* ImageViewerViewController.swift */,
-				FA1CF63F26454DFC003441FC /* CustomCollectionViewFlowLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +330,7 @@
 				FA1CF62126451645003441FC /* ModuleTransitionable.swift */,
 				FA1CF63A2645306B003441FC /* UIImage+.swift */,
 				FA0F1A7A2654C5850016077B /* ImageCache.swift */,
+				FA0F1AD02656D3390016077B /* CustomCollectionViewFlowLayout.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -487,8 +487,8 @@
 				A41F85B4D8BE5AB916363C59 /* ImageViewerPresenter.swift in Sources */,
 				12485F06A8582FDD93093EDE /* ImageViewerInteractorInput.swift in Sources */,
 				5A3F3268A686C08D095DC95B /* ImageViewerInteractorOutput.swift in Sources */,
-				FA1CF64026454DFC003441FC /* CustomCollectionViewFlowLayout.swift in Sources */,
 				DB4E5E01D2A64D1967BB50E0 /* ImageViewerInteractor.swift in Sources */,
+				FA0F1AD12656D3390016077B /* CustomCollectionViewFlowLayout.swift in Sources */,
 				8DA2237A4B95C6C588AC61E6 /* ImageViewerRouterInput.swift in Sources */,
 				1FF005A200ACF0B4AD6F3A07 /* ImageViewerRouter.swift in Sources */,
 				8A439DA2E32E621065547BE4 /* ImageViewerConfigurator.swift in Sources */,
