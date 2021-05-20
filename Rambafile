@@ -1,0 +1,34 @@
+### Headers settings
+company: alex
+
+### Xcode project settings
+project_name: DromTestApp
+xcodeproj_path: DromTestApp.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: DromTestApp
+
+# The file path for new modules
+project_file_path: DromTestApp/Classes/Modules
+
+# The Xcode group path to new modules
+project_group_path: DromTestApp/Classes/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: DromTestAppTests
+
+# The file path for new tests
+test_file_path: DromTestApp/Tests/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Catalogs
+catalogs:
+- 'https://github.com/lexsul/generamba_template'
+
+### Templates
+templates:
+- {name: lexsul_swifty_viper}

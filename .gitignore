@@ -1,0 +1,15 @@
+.DS_Store
+Pods/
+xcuserdata
+.xcworkspace
+
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/README.md
